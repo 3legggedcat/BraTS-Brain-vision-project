@@ -16,6 +16,16 @@ This folder contains:
 [Brats20 Dataset (Training + Validation)](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
 
 ## 1. Set up
+Create a Python environment
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment
+```bash
+.venv\Scripts\activate
+```
 
 Install packages:
 

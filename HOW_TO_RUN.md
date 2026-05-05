@@ -7,31 +7,15 @@ This folder contains:
   - `analyze_brats_project.py`
   - `analyze_brats_data_only.py`
   - `generate_preprocessing_report.py`
-- dataset:
+- dataset(Must download, too big of a file for github):
   - `BraTS2020_TrainingData/`
   - `BraTS2020_ValidationData/`
 - dependencies:
   - `requirements.txt`
+## Download Dataset
+[Brats20 Dataset (Training + Validation)](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
 
-## 1. Set up Python
-
-Create a virtual environment:
-
-```bash
-python3 -m venv .venv
-```
-
-Activate it on Linux or macOS:
-
-```bash
-source .venv/bin/activate
-```
-
-Activate it on Git Bash / bash with Windows Python:
-
-```bash
-source .venv/Scripts/activate
-```
+## 1. Set up
 
 Install packages:
 

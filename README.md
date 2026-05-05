@@ -38,25 +38,25 @@ pip install -r requirements.txt
 ### Train on 1 patient for 1 epoch
 
 ```bash
-python3 train_resnet152_unet.py --max-patients 1 --epochs 1 --batch-size 2 --num-workers 0
+python3 train_resnet152_unet.py --max-patients 1 --epochs 1 --batch-size 2
 ```
 
 ### Train on 1 patient for 2 epochs
 
 ```bash
-python3 train_resnet152_unet.py --max-patients 1 --epochs 2 --batch-size 2 --num-workers 0
+python3 train_resnet152_unet.py --max-patients 1 --epochs 2 --batch-size 2 
 ```
 
 ### Train on 2 patients for 1 epoch
 
 ```bash
-python3 train_resnet152_unet.py --max-patients 2 --epochs 1 --batch-size 2 --num-workers 0
+python3 train_resnet152_unet.py --max-patients 2 --epochs 1 --batch-size 2
 ```
 
 ### Train on 2 patients for 2 epochs
 
 ```bash
-python3 train_resnet152_unet.py --max-patients 2 --epochs 2 --batch-size 2 --num-workers 0
+python3 train_resnet152_unet.py --max-patients 2 --epochs 2 --batch-size 2 
 ```
 
 ### Save the checkpoint with the expected name
